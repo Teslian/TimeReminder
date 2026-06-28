@@ -1,7 +1,7 @@
 @echo off
 REM ============================================================================
 REM TimeReminder 编译脚本
-REM 使用 Visual Studio 2013 编译器编译生成 TimeReminder.exe
+REM 使用 Visual Studio 2026 编译器编译生成 TimeReminder.exe
 REM ============================================================================
 
 echo ============================================
@@ -10,7 +10,7 @@ echo ============================================
 echo.
 
 REM 设置Visual Studio 2013编译环境
-set VCVARSALL="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\vcvarsall.bat"
+set VCVARSALL="D:\AppGallery\Downloads\VS2026\PATCH\VC\Auxiliary\Build\vcvarsall.bat"
 
 if not exist %VCVARSALL% (
     echo [错误] 未找到 Visual Studio 2013 编译环境！
